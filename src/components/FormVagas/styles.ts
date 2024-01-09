@@ -8,6 +8,7 @@ export const Formulario = styled.form`
   border-radius: 12px;
   margin-top: 40px;
 `
+
 export const BotaoPesquisar = styled.button`
   background-color: ${(props) => props.theme.corPrincipal};
   border: 1px solid ${(props) => props.theme.corPrincipal};
@@ -18,6 +19,7 @@ export const BotaoPesquisar = styled.button`
   margin-left: 8px;
   cursor: pointer;
 `
+
 export const CampoPesquisar = styled.input`
   padding: 0 16px;
   outline-color: ${(props) => props.theme.corPrincipal};
